@@ -44,6 +44,7 @@ script:
 
   # generate default blueprint
   - mkdir -p $HOME/jhipster-helloworld && cd $HOME/jhipster-helloworld
+  - npm link generator-jhipster
   - npm link generator-jhipster-blueprint
   - yo jhipster-blueprint default
   - npm install
