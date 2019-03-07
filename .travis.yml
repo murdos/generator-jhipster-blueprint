@@ -47,9 +47,8 @@ script:
   - npm link generator-jhipster-blueprint
   - yo jhipster-blueprint default
   - npm install
-  - npm link
-  - npm link generator-jhipster
   - npm test
+  - npm link
 
   # force no insight
   - mkdir -p "$HOME"/.config/configstore/
